@@ -103,7 +103,7 @@ These clients are compatible with our [staging endpoint for ACME v2](https://com
 
 ## Microsoft Azure
 
-- [GetSSL - Azure Automation](https://www.powershellgallery.com/packages/GetSSL-LetsEncrypt/1.4.3/DisplayScript) (Compatible with any App Service)
+- [GetSSL - Azure Automation](https://www.powershellgallery.com/packages/GetSSL-LetsEncrypt/1.4.3/) (Compatible with any App Service)
 
 ## nginx
 
@@ -115,7 +115,7 @@ These clients are compatible with our [staging endpoint for ACME v2](https://com
 
 - [Greenlock for Commandline](https://git.coolaj86.com/coolaj86/greenlock-cli.js)
 - [Greenlock for Express.js](https://git.coolaj86.com/coolaj86/greenlock-express.js)
-- [Cloudron/acme](https://git.cloudron.io/cloudron/box/blob/master/src/cert/acme.js)
+- [Cloudron/acme](https://git.cloudron.io/cloudron/box/blob/master/src/cert/acme1.js)
 - [ocelotconsulting/node-acme-lambda](https://github.com/ocelotconsulting/node-acme-lambda)
 
 ## OpenShift

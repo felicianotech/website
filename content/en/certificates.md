@@ -19,7 +19,7 @@ We've set up websites to test certificates chaining to our roots.
 * ISRG Root X1 Revoked Certificate
   * [https://revoked-isrgrootx1.letsencrypt.org/](https://revoked-isrgrootx1.letsencrypt.org/)
 * ISRG Root X1 Expired Certificate
-  * [https://expired-isrgrootx1.letsencrypt.org/](https://expired-isrgrootx1.letsencrypt.org/)
+  * [http://expired-isrgrootx1.letsencrypt.org/](http://expired-isrgrootx1.letsencrypt.org/)
 
 # Intermediate Certificates
 

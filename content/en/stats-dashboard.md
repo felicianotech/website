@@ -11,9 +11,7 @@ slug: stats-dashboard
     <h1>Let's Encrypt Growth Timeline</h1>
     <div id="combinedTimeline" title="Issuance Timeline" class="statsgraph">
   </div>
-
   <p><a href="/stats/">https://letsencrypt.org/stats/</a></p>
 </div>
-
 <script src="/js/stats.js"></script>
 <script src="/js/plotly-min.js"></script>

@@ -20,7 +20,7 @@ idea and there are better options.
 # For local development
 
 If you're developing a web app, it's useful to run a local web server like
-Apache or Nginx, and access it via http://localhost:8000/ in your web browser.
+Apache or Nginx, and access it via `http://localhost:8000/` in your web browser.
 However, web browsers behave in subtly different ways on HTTP vs HTTPS pages.
 The main difference: On an HTTPS page, any requests to load JavaScript from an
 HTTP URL will be blocked. So if you're developing locally using HTTP, you might
@@ -45,7 +45,7 @@ means that browsers will forbid it from making XHR or WebSockets requests
 to non-secure URLs. This is called Mixed Content Blocking. To communicate with
 the web app, the native app needs to provide a secure web service.
 
-Fortunately, modern browsers [consider][mcb-localhost] "http://127.0.0.1:8000/" to be a
+Fortunately, modern browsers [consider][mcb-localhost] `http://127.0.0.1:8000/` to be a
 ["potentially trustworthy"][secure-contexts]
 URL because it refers to a loopback address. Traffic sent to 127.0.0.1 is guaranteed
 not to leave your machine, and so is considered automatically secure against
@@ -59,7 +59,7 @@ a domain name in the global DNS that happens to resolve to 127.0.0.1
 (for instance, localhost.example.com), getting a certificate for that
 domain name, shipping that certificate and corresponding private key
 with your native app, and telling your web app to
-communicate with https://localhost.example.com:8000/ instead of http://127.0.0.1:8000/.
+communicate with `https://localhost.example.com:8000/` instead of `http://127.0.0.1:8000/`.
 *Don't do this.* It will put your users at risk, and your certificate may get revoked.
 
 By introducing a domain name instead of an IP address, you make it possible for
