@@ -23,7 +23,7 @@ jobs:
           command: HUGO_ENV=production hugo -v
       - run:
           name: "Test Website"
-          command: cd public; htmlproofer . --allow-hash-href --check-html --empty-alt-ignore --disable-external
+          command: cd public; htmlproofer . --allow-hash-href --check-html --empty-alt-ignore
       - persist_to_workspace:
           root: .
           paths:
